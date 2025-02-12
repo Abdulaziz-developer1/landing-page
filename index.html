@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <div class="w-screen h-screen bg-sky-600">
+        <div class="pl-[50px] pr-[50px] pt-[10px] pb-[10px] w-screen h-[80px] flex justify-between items-center md:flex-wrap sm:flex-wrap lg:flex-wrap xl:flex-wrap">
+            <div class="flex items-center gap-20 text-white">
+                <div class="flex items-center gap-5">
+                    <img class="h-[30px] w-[30px] rounded-full cursor-pointer" src="assets/logo.png" alt="logo">
+                    <h2 class="cursor-default text-2xl">NAVBÆR</h2>
+                </div>
+                <nav>
+                    <ul class="flex justify-evenly items-center gap-15 text-0.9xl">
+                            <li class="cursor-pointer"><a href="#">Product</a></li>
+                            <li class="cursor-pointer"><a href="#">Learning center</a></li>
+                            <li class="cursor-pointer"><a href="#">Podcast & Series</a></li>
+                            <li class="cursor-pointer"><a href="#">About</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="flex items-center gap-10">
+                <span class="inline-flex items-center rounded-md bg-gray-50 px-2 py-1 text-xs font-medium text-black-900 w-[120px] flex justify-center h-[40px]  cursor-pointer">Login</span>
+                <span class="inline-flex items-center rounded-md bg-cyan-200 px-2 py-1 text-xs font-medium text-white w-[120px] flex justify-center h-[40px]  cursor-pointer">Badge</span>
+                </div>
+        </div>
+        <div class="flex w-screen h-[655px] justify-evenly items-center">
+            <div class="w-[430px]">
+                <h1 class="text-5xl font-semibold">Let your videos do the work</h1>
+                <p class="mt-[20px]">Video marketing software that makes it easy to find, engage and grow your audience.</p>
+                <div class="flex items-center gap-10 mt-[20px]">
+                    <span class="inline-flex items-center rounded-md bg-red-300 px-2 py-1 text-xs font-medium text-black-900 w-[160px] flex justify-center h-[60px]  cursor-pointer">Try for free</span>
+                    <span class="inline-flex items-center rounded-md bg-white px-2 py-1 text-xs font-medium text-white-700 w-[160px] flex justify-center h-[60px] cursor-pointer">Watch video</span>
+                    </div>
+            </div>
+            <div class="w-[600px] h-[600px]">
+                <img class="w-full h-full rounded-xl" src="assets/img.png" alt="img">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
